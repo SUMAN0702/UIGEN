@@ -1,0 +1,95 @@
+[  258953ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ about:srcdoc:0
+[  258976ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[  259587ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ about:srcdoc:0
+[  259593ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[  300791ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ about:srcdoc:0
+[  300797ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[  301867ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ about:srcdoc:0
+[  301872ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[  302737ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ about:srcdoc:0
+[  302757ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[  302884ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ about:srcdoc:0
+[  302890ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[  302957ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ about:srcdoc:0
+[  302962ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[  351747ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ about:srcdoc:0
+[  351756ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[  351802ms] [ERROR] Failed to load app: SyntaxError: The requested module '@/components' does not provide an export named 'GithubLogin' @ about:srcdoc:148
+[  351802ms] [ERROR] Import map: {
+  "imports": {
+    "react": "https://esm.sh/react",
+    "react-dom": "https://esm.sh/react-dom@19",
+    "react-dom/client": "https://esm.sh/react-dom@19/client",
+    "react/jsx-runtime": "https://esm.sh/react@19/jsx-runtime",
+    "react/jsx-dev-runtime": "https://esm.sh/react@19/jsx-dev-runtime",
+    "/App.jsx": "blob:http://localhost:3000/1cb98230-d6c5-4c66-94b4-7fd71cd55fea",
+    "App.jsx": "blob:http://localhost:3000/1cb98230-d6c5-4c66-94b4-7fd71cd55fea",
+    "@/App.jsx": "blob:http://localhost:3000/1cb98230-d6c5-4c66-94b4-7fd71cd55fea",
+    "/App": "blob:http://localhost:3000/1cb98230-d6c5-4c66-94b4-7fd71cd55fea",
+    "App": "blob:http://localhost:3000/1cb98230-d6c5-4c66-94b4-7fd71cd55fea",
+    "@/App": "blob:http://localhost:3000/1cb98230-d6c5-4c66-94b4-7fd71cd55fea",
+    "@/components": "blob:http://localhost:3000/5eef4fd4-7826-43cd-a13e-46291bd4dd10",
+    "/components": "blob:http://localhost:3000/5eef4fd4-7826-43cd-a13e-46291bd4dd10",
+    "components": "blob:http://localhost:3000/5eef4fd4-7826-43cd-a13e-46291bd4dd10"
+  }
+} @ about:srcdoc:149
+[  355026ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ about:srcdoc:0
+[  355032ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[  355068ms] [ERROR] Failed to load app: SyntaxError: The requested module '@/components' does not provide an export named 'GithubLogin' @ about:srcdoc:154
+[  355068ms] [ERROR] Import map: {
+  "imports": {
+    "react": "https://esm.sh/react",
+    "react-dom": "https://esm.sh/react-dom@19",
+    "react-dom/client": "https://esm.sh/react-dom@19/client",
+    "react/jsx-runtime": "https://esm.sh/react@19/jsx-runtime",
+    "react/jsx-dev-runtime": "https://esm.sh/react@19/jsx-dev-runtime",
+    "/App.jsx": "blob:http://localhost:3000/779653de-46bc-43b3-a821-721e9d9b89ca",
+    "App.jsx": "blob:http://localhost:3000/779653de-46bc-43b3-a821-721e9d9b89ca",
+    "@/App.jsx": "blob:http://localhost:3000/779653de-46bc-43b3-a821-721e9d9b89ca",
+    "/App": "blob:http://localhost:3000/779653de-46bc-43b3-a821-721e9d9b89ca",
+    "App": "blob:http://localhost:3000/779653de-46bc-43b3-a821-721e9d9b89ca",
+    "@/App": "blob:http://localhost:3000/779653de-46bc-43b3-a821-721e9d9b89ca",
+    "/components/GoogleLogin.jsx": "blob:http://localhost:3000/d27ebdef-5938-4438-b051-efb9a1524a61",
+    "components/GoogleLogin.jsx": "blob:http://localhost:3000/d27ebdef-5938-4438-b051-efb9a1524a61",
+    "@/components/GoogleLogin.jsx": "blob:http://localhost:3000/d27ebdef-5938-4438-b051-efb9a1524a61",
+    "/components/GoogleLogin": "blob:http://localhost:3000/d27ebdef-5938-4438-b051-efb9a1524a61",
+    "components/GoogleLogin": "blob:http://localhost:3000/d27ebdef-5938-4438-b051-efb9a1524a61",
+    "@/components/GoogleLogin": "blob:http://localhost:3000/d27ebdef-5938-4438-b051-efb9a1524a61",
+    "@/components": "blob:http://localhost:3000/4186e160-6af8-4c93-b0ff-51d813319426",
+    "/components": "blob:http://localhost:3000/4186e160-6af8-4c93-b0ff-51d813319426",
+    "components": "blob:http://localhost:3000/4186e160-6af8-4c93-b0ff-51d813319426"
+  }
+} @ about:srcdoc:155
+[  357930ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ about:srcdoc:0
+[  357936ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[  357970ms] [ERROR] Failed to load app: SyntaxError: The requested module '@/components' does not provide an export named 'GithubLogin' @ about:srcdoc:160
+[  357971ms] [ERROR] Import map: {
+  "imports": {
+    "react": "https://esm.sh/react",
+    "react-dom": "https://esm.sh/react-dom@19",
+    "react-dom/client": "https://esm.sh/react-dom@19/client",
+    "react/jsx-runtime": "https://esm.sh/react@19/jsx-runtime",
+    "react/jsx-dev-runtime": "https://esm.sh/react@19/jsx-dev-runtime",
+    "/App.jsx": "blob:http://localhost:3000/dc096eaf-c497-4c77-8cee-3b9cdc48b366",
+    "App.jsx": "blob:http://localhost:3000/dc096eaf-c497-4c77-8cee-3b9cdc48b366",
+    "@/App.jsx": "blob:http://localhost:3000/dc096eaf-c497-4c77-8cee-3b9cdc48b366",
+    "/App": "blob:http://localhost:3000/dc096eaf-c497-4c77-8cee-3b9cdc48b366",
+    "App": "blob:http://localhost:3000/dc096eaf-c497-4c77-8cee-3b9cdc48b366",
+    "@/App": "blob:http://localhost:3000/dc096eaf-c497-4c77-8cee-3b9cdc48b366",
+    "/components/GoogleLogin.jsx": "blob:http://localhost:3000/4fcc344d-bc65-4687-899b-c42bbf94ac75",
+    "components/GoogleLogin.jsx": "blob:http://localhost:3000/4fcc344d-bc65-4687-899b-c42bbf94ac75",
+    "@/components/GoogleLogin.jsx": "blob:http://localhost:3000/4fcc344d-bc65-4687-899b-c42bbf94ac75",
+    "/components/GoogleLogin": "blob:http://localhost:3000/4fcc344d-bc65-4687-899b-c42bbf94ac75",
+    "components/GoogleLogin": "blob:http://localhost:3000/4fcc344d-bc65-4687-899b-c42bbf94ac75",
+    "@/components/GoogleLogin": "blob:http://localhost:3000/4fcc344d-bc65-4687-899b-c42bbf94ac75",
+    "/components/GithubLogin.jsx": "blob:http://localhost:3000/641e3d85-b956-4899-a102-e7b7c9746459",
+    "components/GithubLogin.jsx": "blob:http://localhost:3000/641e3d85-b956-4899-a102-e7b7c9746459",
+    "@/components/GithubLogin.jsx": "blob:http://localhost:3000/641e3d85-b956-4899-a102-e7b7c9746459",
+    "/components/GithubLogin": "blob:http://localhost:3000/641e3d85-b956-4899-a102-e7b7c9746459",
+    "components/GithubLogin": "blob:http://localhost:3000/641e3d85-b956-4899-a102-e7b7c9746459",
+    "@/components/GithubLogin": "blob:http://localhost:3000/641e3d85-b956-4899-a102-e7b7c9746459",
+    "@/components": "blob:http://localhost:3000/b602c29f-0ac2-4b35-af64-b6ade7c0a087",
+    "/components": "blob:http://localhost:3000/b602c29f-0ac2-4b35-af64-b6ade7c0a087",
+    "components": "blob:http://localhost:3000/b602c29f-0ac2-4b35-af64-b6ade7c0a087"
+  }
+} @ about:srcdoc:161

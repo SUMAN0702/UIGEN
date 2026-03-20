@@ -1,11 +1,13 @@
 import { anthropic } from "@ai-sdk/anthropic";
+import { createGroq } from "@ai-sdk/groq";
 import {
   LanguageModelV1,
   LanguageModelV1StreamPart,
   LanguageModelV1Message,
 } from "@ai-sdk/provider";
 
-const MODEL = "claude-haiku-4-5";
+const ANTHROPIC_MODEL = "claude-haiku-4-5";
+const GROQ_MODEL = "llama-3.3-70b-versatile";
 
 export class MockLanguageModel implements LanguageModelV1 {
   readonly specificationVersion = "v1" as const;
@@ -507,12 +509,19 @@ export default function App() {
 }
 
 export function getLanguageModel() {
-  const apiKey = process.env.ANTHROPIC_API_KEY;
-
-  if (!apiKey || apiKey.trim() === "") {
-    console.log("No ANTHROPIC_API_KEY found, using mock provider");
-    return new MockLanguageModel("mock-claude-sonnet-4-0");
+  const groqKey = process.env.GROQ_API_KEY;
+  if (groqKey && groqKey.trim() !== "") {
+    console.log("Using Groq provider");
+    const groq = createGroq({ apiKey: groqKey });
+    return groq(GROQ_MODEL);
   }
 
-  return anthropic(MODEL);
+  const anthropicKey = process.env.ANTHROPIC_API_KEY;
+  if (anthropicKey && anthropicKey.trim() !== "") {
+    console.log("Using Anthropic provider");
+    return anthropic(ANTHROPIC_MODEL);
+  }
+
+  console.log("No API key found, using mock provider");
+  return new MockLanguageModel("mock-claude-sonnet-4-0");
 }
